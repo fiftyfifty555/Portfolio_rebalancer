@@ -1,4 +1,5 @@
 # Portfolio_rebalancer
+
 A Python-based software prototype for stock portfolio rebalancing based on technical indicators, genetic algorithms, multi-objective optimization, backtesting, and risk-aware performance evaluation.
 
 ## Description
@@ -9,14 +10,22 @@ The project focuses on creating a full portfolio management pipeline: loading OH
 
 The system is designed as a reproducible research prototype with a modular architecture and a graphical user interface.
 
+## Source Code
+
+- [`NIR7_V2.py`](NIR7_V2.py) — main Python implementation of the portfolio rebalancing system
+
+The source code includes the complete application logic: OHLCV data loading, local caching, technical indicator calculation, asset-level genetic optimization, portfolio-level multi-objective optimization, backtesting, metric calculation, visualization, and GUI interaction.
+
 ## Key Features
 
 - OHLCV data loading and preprocessing
+- Local data and ticker caching
 - Technical indicator calculation and normalization
 - Asset scoring based on indicator signals
 - Portfolio rebalancing with user-defined constraints
 - Multi-objective portfolio optimization
 - Genetic algorithm-based optimization
+- Lightweight NSGA-II-style portfolio optimization
 - Transaction cost and turnover accounting
 - Historical backtesting
 - Risk and return metric calculation
@@ -64,14 +73,16 @@ The system evaluates portfolio performance using metrics such as:
 - Matplotlib
 - scikit-learn
 - PyTorch
-- Tkinter / GUI
+- Tkinter / ttkbootstrap
 - Genetic Algorithms
 - Technical Analysis
 - Backtesting
 - Multi-objective Optimization
+- NSGA-II-style optimization
 
 ## Project Materials
 
+- [Source Code](NIR7_V2.py)
 - [Research Report DOCX](КовальскийИВ%20ПЗ%20НИР%207%20семестр.docx)
 - [Alternative Report DOCX](Ковальский%20ПЗ%20НИР%207%20семестр.docx)
 - [Presentation PDF](КовальскийИВ_Б22-514_Презентация_УИР%207%20семестр.pdf)
